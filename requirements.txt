@@ -1,0 +1,20 @@
+# MABe Mouse Behavior Detection - Requirements
+
+# Core dependencies
+pandas>=1.5.0
+numpy>=1.23.0
+scikit-learn>=1.2.0
+
+# Machine learning models
+xgboost>=1.7.0
+lightgbm>=3.3.0
+catboost>=1.1.0
+
+# Utilities
+tqdm>=4.64.0
+joblib>=1.2.0
+scipy>=1.10.0
+
+# Optional: for advanced features
+# optuna>=3.0.0  # For hyperparameter tuning
+# polars>=0.16.0  # Faster DataFrame operations
