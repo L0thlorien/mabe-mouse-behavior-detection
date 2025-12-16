@@ -8,7 +8,6 @@ from src.pipeline import TrainingPipeline
 
 
 def main():
-
     print("MABe Mouse Behavior Detection - Training")
     print("=" * 60)
 
@@ -16,6 +15,7 @@ def main():
 
     f1_scores = pipeline.run()
 
+    print(f"F1 scores: {f1_scores}")
     print("\nTraining complete!")
 
 

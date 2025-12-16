@@ -22,8 +22,10 @@ class PredictionPostProcessor:
             if self.config.SMOOTH_PREDICTIONS and len(binary_pred) > self.config.SMOOTH_WINDOW:
                 binary_pred = median_filter(binary_pred, size=self.config.SMOOTH_WINDOW)
 
+            binary_array = binary_pred.values if hasattr(binary_pred, 'values') else binary_pred
+
             segments_action = self._find_segments(
-                binary_pred.values,
+                binary_array,
                 metadata,
                 action
             )
