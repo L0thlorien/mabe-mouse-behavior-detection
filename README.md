@@ -4,6 +4,8 @@ A clean, modular baseline for the MABe Mouse Behavior Detection competition.
 
 Entered the competition too late, didn't have time to submit
 
+There are some py scripts with base line, but the main improvements are done in kaggle_optimized_final.ipynb file since this competition is the code competition. 
+
 ## Quick Start
 
 ```bash
